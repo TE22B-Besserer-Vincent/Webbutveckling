@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pmain {
+    width: 50%;
+    height: 90%;
+    background-color: none;
+    flex-direction: column;
+}
+
+.pmenu {
+    width: 100%;
+    height: 80px;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.pmenunav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: none;
+}
+
+.pmenunav:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.pmenuitemcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    width: 100%;
+    height: fit;
+    background-color: none;
+    justify-content: space-between;    
+}
+
+.pmenuitem {
+    height: 300px;
+    width: 33%;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pmenuitemimg {
+    position: relative;
+    border-radius: 5px;
+    top: 4%;
+    width: 90%;
+    height: 200px;
+    background-color: aqua;
+}
+
+.pmenuitemdesc {
+    position: relative;
+    display: flex;
+    top: 5%;
+    width: 90%;
+    height: 70px;
+    background-color: blue;
+    justify-content: left;
+}
+
+.pmenutitemprice {
+    position: relative;
+    top: 5%;
+    width: 90%;
+    height: 70px;
+    background-color: blue;
+}
